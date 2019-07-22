@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.bodyBG {
+  z-index: -1;
+
+  background-size:cover;
+  background-image: url('../image/contactUsBG.jpg');
+}
+
+.containerStatus {
+  z-index: 1;
+  height: 15vh;
+  position: fixed;
+}
+
+
+.contactContainerStatus{
+padding-top:15vh;
+
+}
+
+.titleBarCloStatus {
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+  height: 5vh;
+  font-size: 3vh;
+  margin-top: 3vh;
+}
+
+.logoBar {
+  z-index: 3;
+  width: 100%;
+  /*margin-top: 1vh;*/
+  background-color: white;
+  position: fixed;
+}
+
+.navbarVButtonSize {
+  height: 10vh;
+  width: 20vh;
+
+}
+
+.logoBarContainer {
+  height: 1vh;
+  background-color: #aea76b;
+}
+
+.logoBarStatus {
+  background-color: white;
+
+}
+
+.logoBarCloStatus {
+  margin-top: 4vh;
+}
+
+.logoSize {
+  z-index: 3;
+  height: 10vh;
+  width:  11vh;
+  padding-right: 1vh;
+}
+
+.navbarFontSize {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  font-size: 4vh;
+  color: #5b2f19 !important;
+}
+
+nav a:hover {
+  color: #ffd600!important;
+}
+
+
+.h1FontStatus{
+  font-size: 8vw;
+  color: white;
+}
+
+.comicStatus{
+  padding-top: 15vh;
+
+}
+
+.titlePictureSize{
+  height: 50vw;
+  width:  100vw;
+
+}
+
+
+.fontTextStatus{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+
+  color: #5b2f19;
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+
+
+@media screen and (min-width:995px)  {
+  .fontTextStatus {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+    color: #5b2f19;
+    font-weight: bold;
+    font-size: 8vh;
+
+  }
+}
+
+
+
+@media screen and (min-width:995px)  {
+  .titlePictureSize {
+    height: 50vh;
+    width:  50vw;
+  }
+}
+
+
+
+
+.leftPicture{
+margin-right: 1vw;
+
+}
+
+.rightPicture{
+margin-left: 1vw;
+
+}
+
+
+.bottonInformationContainer{
+  margin-top: 20px;
+height: 8vh;
+text-align: center;
+background-color: #449206;
+
+}
+
+.bottonInformationWordStatus{
+  color: #ffffff;
+  margin-top: 2vh;
+  font-size: 3vh;
+}
+.backColor{
+background-color: #449206;
+
+}
+
+.contactStatus{
+margin-top: 5vh;
+
+}
+
+
+
+
+.fa{font-size:24px;margin-right:5px}
+.row-first{margin-bottom:10px;margin-top:8px}
+.title-contact{margin-top:32px;display:none;}
+.contact-email { display:none; }
+a{transition:all .3s ease;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease}
+.quick-contact{color:#000;background-color:#f5c339;/*background-image:url('../image/contactUsBG.jpg')*/}
+
+
+
+.infoStatus{
+font-size: 6vw;
+}
+
+.infoH2Status{
+font-size: 3.5vw;
+}
+
+@media screen and (min-width:995px)  {
+  .infoStatus{
+    font-size: 6vw;
+  }
+}
+
+@media screen and (min-width:995px)  {
+  .infoH2Status{
+    font-size: 3.8vw;
+  }
+}
+
+
+
+.fontStatus{
+margin-top: 5vh;
+font-size: 6vw;
+color: white;
+}
+
+.iframeStatus{
+width: 80vw;
+height: 50vh;
+
+}
+
+@media screen and (min-width:995px)  {
+  .iframeStatus{
+    width: 80vw;
+    height: 80vh;
+
+  }
+}

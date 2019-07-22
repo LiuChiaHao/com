@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.socialMediaConnection {
+  z-index: 3;
+  height: 10vh;
+  width: 100%;
+  background-color:	#ffffff;
+  margin: 0;
+  position: fixed;
+}
+
+.firstMedia {
+  z-index: 3;
+  margin-left: 30px;
+}
+
+.elseMedia {
+  z-index: 3;
+  margin-left: 5px;
+}
+
+.imgSize {
+  z-index: 3;
+  margin-top: 2vh;
+  height: 7vh;
+  width:  7vh;
+}
+
+.navbarVButtonSize{
+  height: 10vh;
+  width:  20vh;
+
+}
+
+
+.navbarFontSize{
+font-size: 4vh;
+color: #5f0038 !important;
+}
+
+nav a:hover {
+  color: #DAA520 !important;
+}
+
+.titleBar {
+  /*z-index: 3;
+  margin-top: 10vh;
+  height: 18vh;
+  width: 100%;*/
+  margin-top: 10vh;
+
+  background-color: #a29160;
+  position: fixed;
+}
+
+.logoSize{
+  z-index: 3;
+  height: 10vh;
+  width:  11vh;
+  padding-right: 1vh;
+}
+
+
+
+.titleBarWordSize{
+font-size: 5vh;
+
+}
+
+
+.titleBarText {
+  z-index: 3;
+  display: inline;
+  margin-left: 10%;
+}
+
+.contentBG {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  background-image: url('../image/enterPageBgSmallSize.jpg');
+}
+
+@media screen and (min-width:995px)  {
+  .contentBG {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-image: url('../image/enterPageBg.jpg');
+  }
+}
+
+.firstWordPosition {
+  z-index: 2;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size: 20vw;
+  text-align: center;
+  padding-top: 30vh;
+  color: #ffffff;
+}
+
+.downWordPosition {
+  z-index: 2;
+  font-family:Stencil Std, fantasy;
+  font-size: 8vw;
+  text-align: center;
+  color: #ffffff;
+}
+
+.buttonStatus {
+  z-index: 2;
+
+  height: 15vh;
+  font-size: 6vh;
+  margin-top: 7vh;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.leftButtonPosition {
+  margin-left: 30%;
+  float: left;
+}
+
+.middleButtonPosition {
+  margin-left: 5%;
+  float: left;
+}
+
+.rightButtonPosition {
+  margin-left: 5%;
+  float: left;
+}
+
+.butn {
+  font-family: Times, Times New Roman, serif	;
+  color: #ffffff;
+
+  padding: 10px 40px 10px 40px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  color: #ba37ba;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.bottonInformationContainer{
+
+height: 8vh;
+text-align: center;
+background-color: #5f0038;
+
+}
+
+
+.backColor{
+background-color: #5f0038;
+
+}
+
+
+
+.bottonInformationWordStatus{
+  color: #ffffff;
+  margin-top: 2vh;
+  font-size: 3vh;
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerStatus {
+  z-index: 1;
+  height: 15vh;
+  position: fixed;
+}
+
+
+.titleBarCloStatus {
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+  height: 5vh;
+  font-size: 3vh;
+  margin-top: 3vh;
+}
+
+.logoBar {
+  z-index: 3;
+  width: 100%;
+  /*margin-top: 1vh;*/
+  background-color: white;
+  position: fixed;
+}
+
+.navbarVButtonSize {
+  height: 10vh;
+  width: 20vh;
+
+}
+
+.logoBarContainer {
+  height: 1vh;
+  background-color: #aea76b;
+}
+
+.logoBarStatus {
+  background-color: white;
+
+}
+
+.logoBarCloStatus {
+  margin-top: 4vh;
+}
+
+.logoSize {
+  z-index: 3;
+  height: 10vh;
+  width:  11vh;
+  padding-right: 1vh;
+}
+
+.navbarFontSize {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  font-size: 4vh;
+  color: #5b2f19 !important;
+}
+
+nav a:hover {
+  color: #ffd600!important;
+}
+
+.comicStatus{
+  padding-top: 15vh;
+
+}
+
+.titlePictureSize{
+  height: 50vw;
+  width:  100vw;
+
+}
+
+
+.fontTextStatus{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+
+  color: #5b2f19;
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+
+
+@media screen and (min-width:995px)  {
+  .fontTextStatus {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+    color: #5b2f19;
+    font-weight: bold;
+    font-size: 8vh;
+
+  }
+}
+
+
+
+@media screen and (min-width:995px)  {
+  .titlePictureSize {
+    height: 50vh;
+    width:  50vw;
+  }
+}
+
+
+.comicPictureSize{
+  margin-top: 5vh;
+
+  height: 50vw;
+  width:  100vw;
+
+}
+
+@media screen and (min-width:995px)  {
+  .comicPictureSize {
+    margin-top: 3vh;
+    height: 40vh;
+    width:  39vw;
+
+  }
+}
+
+
+.leftPicture{
+margin-right: 1vw;
+
+}
+
+.rightPicture{
+margin-left: 1vw;
+
+}
+
+
+.bottonInformationContainer{
+  margin-top: 20px;
+height: 8vh;
+text-align: center;
+background-color: #449206;
+
+}
+
+.bottonInformationWordStatus{
+  color: #ffffff;
+  margin-top: 2vh;
+  font-size: 3vh;
+}
+.backColor{
+background-color: #449206;
+
+}
